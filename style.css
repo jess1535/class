@@ -1,0 +1,78 @@
+body{
+background-color:cornflowerblue;
+text-align:center;
+}
+.menú{
+list-style:none;
+position:fixed;
+font-family:cursive;
+float:right;
+top: 10px;
+z-index: 10;
+right: 30px;
+cursor: pointer;
+color: black;
+    }
+p{
+font-size:20px;
+}
+.links{
+list-style:none;
+font-size:20px;
+padding-top:6px;
+padding-left: 6px;
+padding-right: 8px;
+padding-bottom:6px;
+float:left;
+}
+imas2{
+width:1000px;
+height:1000px;
+}
+imas{
+width:1000px;
+height:1000px;
+}
+#ima{
+ width:700px;
+height:500px;
+}
+.links:hover{
+background-color:cornflowerblue;
+}
+.carousel-inner p{
+font-size:60px;
+color:lightyellow;
+}
+#mycarousel{
+background-color:lightgreen;
+}
+h1{
+color:aquamarine;
+font-family:cursive;
+font-size:25px;
+}
+#inicio{
+width:100%;
+height:800px;
+background-color:lightcoral;
+text-align:center;
+}
+#blog{
+width:100%;
+height:800px;
+background-color:blueviolet;
+text-align:center;
+}
+.linea{
+height:10px;
+width:20%;
+margin:8px auto;
+background-color:yellow;
+}
+img{
+transition:transform.2s;
+}
+html{
+scroll-behavior:smooth;
+}
